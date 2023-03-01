@@ -57,6 +57,60 @@
 
 #space {
     position: relative;
-    left: 20%;
+    left: 10%;
 }
 
+/* Home Section */
+.home__section {
+    margin-top: 12%;
+}
+.home__section h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: var(---font-destaque);
+    letter-spacing: 5px;
+}
+
+.home__section .sub {
+    color: rgba(255, 255, 255, 0.897);
+    margin-top: 2%;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.box__white {
+    background-color: #fff;
+    display: flex;
+    width: 50%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #0000002d;
+}
+
+.group-1 h4, .group-2 h4, .group-3 h4 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px !important;
+    color: var(---fundo-site);
+}
+
+.group-1 p, .group-2 p, .group-3 p {
+    color: gray;
+}
+
+.group-1, .group-2, .group-3 {
+    margin-top: 10px;
+    
+}
+
+.bi-search {
+    font-size: 25px !important;
+    background-color: var(---fundo-site);
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 10%;
+}
