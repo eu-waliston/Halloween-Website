@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Melted-Monster';
+    src: url('../font/Melted-Monster.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    ---fundo-site: #2b0942;
+    ---font-destaque: 'Melted-Monster';
+    ---font-normal: 'Montserrat';
+}
+
+.top__section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/top-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(---fundo-site);
+}
