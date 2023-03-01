@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -13,6 +14,8 @@
     ---font-destaque: 'Melted-Monster';
     ---font-normal: 'Montserrat';
 }
+
+/* Top Section  */
 
 .top__section {
     width: 100%;
@@ -27,7 +30,7 @@
 /* Navbar */
 
 .navbar {
-    top: 25px;
+    top: 35px !important;
 }
 
 #logo {
@@ -61,14 +64,15 @@
 }
 
 /* Home Section */
-.home__section {
-    margin-top: 12%;
-}
+
 .home__section h1 {
     color: #fff;
     font-size: 4rem;
     font-family: var(---font-destaque);
     letter-spacing: 5px;
+
+    position: relative;
+    top: 180px;
 }
 
 .home__section .sub {
@@ -76,6 +80,9 @@
     margin-top: 2%;
     font-size: 18px;
     text-transform: capitalize;
+
+    position: relative;
+    top: 180px;
 }
 
 .box__white {
@@ -88,6 +95,9 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #0000002d;
+
+    position: relative;
+    top: 180px;
 }
 
 .group-1 h4, .group-2 h4, .group-3 h4 {
@@ -113,4 +123,11 @@
     border-radius: 20px;
     color: #fff;
     margin-left: 10%;
+}
+
+/* Middle Section  */
+.middle__section {
+    height: 100vh;
+    width: 100%;
+    background-color: var(---fundo-site);
 }
