@@ -23,3 +23,40 @@
     background-position: center;
     background-color: var(---fundo-site);
 }
+
+/* Navbar */
+
+.navbar {
+    top: 25px;
+}
+
+#logo {
+    position: relative;
+    width: 40px;
+    margin-right: 5px;
+    top: -5px;
+}
+#nav-name{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: var(---font-normal);
+}
+
+.nav-link {
+    font-size: 20px !important;
+    color: #fff !important;
+    transition: .5s !important;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+#space {
+    position: relative;
+    left: 20%;
+}
+
