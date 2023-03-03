@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #49288A;
+    background: var(---fundo-site);
     /* color of the tracking area */
 }
 
@@ -167,12 +167,13 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
 }
 
+
 .card-body h3 {
     font-size: 18px !important;
     font-weight: bold;
     text-transform: capitalize;
-    font-family: var(---font-destaque);
-    letter-spacing: 2px;    
+    font-family: var(---font-normal);
+    letter-spacing: 1.5px;    
 }
 
 .card-body p {
@@ -211,7 +212,7 @@ body::-webkit-scrollbar-thumb {
 
 .middle__Section_ex:hover {
     transition: .5s;
-    transform: scale(1.2) rotate(2deg);
+    transform: scale(1.2) rotate(-2deg);
     cursor: pointer;
     background-color: #2b0942;
     color: #fff !important;
