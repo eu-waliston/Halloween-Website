@@ -18,8 +18,11 @@
 
 
 
-body, .middle__section, .middle__section2{
-    background-color:#49288A !important;
+body,
+.middle__section,
+.middle__section2,
+.footer__section {
+    background-color: #49288A !important;
 }
 
 body::-webkit-scrollbar {
@@ -173,7 +176,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     text-transform: capitalize;
     font-family: var(---font-normal);
-    letter-spacing: 1.5px;    
+    letter-spacing: 1.5px;
 }
 
 .card-body p {
@@ -210,13 +213,18 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.2rem;
 }
 
+.middle__Section_ex {
+    border: none !important;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.39);
+}
+
 .middle__Section_ex:hover {
     transition: .5s;
-    transform: scale(1.2) rotate(-2deg);
+    transform: scale(1.2) rotateX(360deg);
     cursor: pointer;
     background-color: #2b0942;
     color: #fff !important;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.39);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.42);
     z-index: 2;
 }
 
@@ -242,7 +250,7 @@ body::-webkit-scrollbar-thumb {
     width: 420px;
     border-radius: 10px;
     margin-top: 38%;
-    box-shadow: 5px 5px 15px rgba(0,0,0, 0.30);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.30);
 }
 
 .right_item {
@@ -294,7 +302,7 @@ body::-webkit-scrollbar-thumb {
     transition: .5s;
 }
 
-.join:hover{
+.join:hover {
     color: #fff !important;
     background-color: #2b0942 !important;
 }
@@ -316,6 +324,7 @@ body::-webkit-scrollbar-thumb {
 
 .card-body p {
     font-size: 1rem;
+    color: #ffffffa9;
 }
 
 .media2_h1 {
@@ -325,7 +334,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .media2_p {
-    color: #ffffffaf;
+    color: #ffffffda;
     font-size: 1.2rem;
     font-family: var(---font-normal);
     margin-bottom: 30px;
@@ -346,4 +355,166 @@ body::-webkit-scrollbar-thumb {
     transform: scale(1.1) rotateY(360deg);
     position: relative !important;
     top: -20px !important;
+}
+
+
+/* Footer Section  */
+
+.footer__section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.left_side h1 {
+    font-size: 2.5rem !important;
+    color: #fff;
+    font-family: var(---font-destaque);
+}
+
+.left_side p {
+    color: #fff;
+    font-family: var(---font-normal);
+    margin-top: 30px;
+}
+
+.fun {
+    color: orangered;
+}
+
+#row {
+    position: relative;
+    top: 250px !important;
+
+}
+
+.contact {
+    margin-top: 8%;
+}
+
+.contact i {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 100px;
+
+}
+
+.bi-globe-americas,
+.bi-telephone {
+    position: relative;
+    top: 10px !important;
+}
+
+.form {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-left: 10%;
+    height: 500px;
+}
+
+
+
+.form h1 {
+    margin-left: -10% !important;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-family: var(---font-destaque);
+}
+
+.form label,
+.form input {
+    font-family: var(---font-normal) !important;
+    text-transform: capitalize !important;
+    margin-bottom: 5px;
+}
+
+
+.party {
+    color: orangered;
+}
+
+.right__side {
+    background-color: #fff !important;
+    border-radius: 10px;
+}
+
+.right__side input {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(194, 192, 192, 0.473);
+}
+
+select {
+    width: 300px;
+    height: 30px;
+}
+
+.resister__btn {
+    margin-top: 3%;
+    width: 250px;
+    height: 40px;
+    background-color: #49288A !important;
+    border: none !important;
+}
+
+.container__fundo {
+    clear: both;
+    display: flex;
+    text-align: center !important;
+    position: relative;
+    top: 38%;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.container__fundo h3 {
+    text-transform: capitalize !important;
+    font-size: 1.4rem;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.container__fundo a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 1050px ) {
+    .form input {
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 1197px ) {
+    .form input {
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 1340px ) {
+    .form input {
+        width: 400px !important;
+    }
+}
+@media screen and (max-width: 1370px ) {
+    .form input {
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1395px ) {
+    .form input {
+        width: 450px;
+    }
 }
